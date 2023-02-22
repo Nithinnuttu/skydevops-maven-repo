@@ -16,10 +16,10 @@ spec:
         app: my-app
     spec:
       imagePullSecrets:
-      - name: ravi-docker-registry
+      - name: docker_hub_ID
       containers:
       - name: skydevops-container
-        image: ravirekha1/skydevopsapp:13
+        image: nithinnuttu/docker_trail:16
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
