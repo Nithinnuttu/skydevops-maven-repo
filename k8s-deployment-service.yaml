@@ -16,7 +16,7 @@ spec:
         app: my-app
     spec:
       imagePullSecrets:
-      - name: docker_hub_ID
+      - name: my-registry-key
       containers:
       - name: skydevops-container
         image: nithinnuttu/docker_trail:19
