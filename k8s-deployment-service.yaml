@@ -19,7 +19,7 @@ spec:
       - name: docker_hub_ID
       containers:
       - name: skydevops-container
-        image: nithinnuttu/docker_trail:16
+        image: nithinnuttu/docker_trail:19
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
